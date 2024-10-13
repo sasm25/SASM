@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+
+
+.table {
+	/* width: 100%; */
+	border-collapse: separate;
+	border-spacing: 0;
+	background-color: #f9f9f9;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+.table th,
+.table td {
+	padding: 15px 20px;
+	text-align: left;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.table th {
+	background-color: #0066cc;
+	color: white;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.table tr:last-child td {
+	border-bottom: none;
+}
+
+.table td:first-child {
+	font-weight: bold;
+	color: #333;
+}
+
+.table td:nth-child(2) {
+	text-align: right;
+}
