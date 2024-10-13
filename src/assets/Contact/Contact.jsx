@@ -26,7 +26,7 @@ export default function Contact() {
               </a>
             </p>
             <p className="text-gray-200 font-semibold">
-              Call:{" "}
+              Contact :{" "}
               <a
                 href="tel:+910326 235 0495
 
@@ -40,16 +40,16 @@ export default function Contact() {
           <p className="mb-2 text-xl">
             <strong>Prof. Prakash Kumar</strong>
           </p>
-          <p className="mb-2">Department of Production Engineering</p>
+          <p className="mb-2">Head of Department Production & Industrial Engineering</p>
           <p className="mb-2">BIT Sindri</p>
         </div>
         {/*, Sindri, Jharkhand 828120 */}
         <div className="text-lg mb-6">
           <p className="text-gray-200 font-semibold">Address :</p>
           <p className="text-gray-200">
-            Dept. Production & Industrial Engineering, BIT,
+            Dept. Production & Industrial Engineering,
           </p>
-          <p className="text-gray-200">Sindri, Dhanbad, Jharkhand 828123</p>
+          <p className="text-gray-200">BIT Sindri, Dhanbad, Jharkhand - 828123</p>
         </div>
         {/* Map Section */}
         <div className="mt-8">
