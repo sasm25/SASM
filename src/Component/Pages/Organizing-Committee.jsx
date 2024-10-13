@@ -99,7 +99,7 @@ export default function OrganizingCommittee() {
 			title: "Co-Coordinator(s)",
 			members: [
 				{
-					name: "Mr. Kasif Hazan Kazmi",
+					name: "Mr. Kashif Hazan Kazmi",
 					position: "Assistant Professor, PIE, BIT Sindri",
 					Mail: "kashif.prod@bitsindri.ac.in",
 				},
