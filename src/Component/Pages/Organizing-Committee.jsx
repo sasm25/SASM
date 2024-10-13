@@ -278,7 +278,7 @@ export default function OrganizingCommittee() {
 				{
 					name: "Syed Adnan Ahmad ",
 					position: "PIE, 2k22, BIT Sindri",
-					Mail: "syedadnan@bitsindr.ac.in",
+					Mail: "ahmadadnan4312@gmail.com",
 					Link: "https://www.linkedin.com/in/syedadnan03",
 				},
 				{
@@ -301,9 +301,15 @@ export default function OrganizingCommittee() {
 				},
 				{
 					name: "Malay Srivastava ",
-					position: "PIE, 2k22, BIT Sindri",
+					position: "PIE, 2k23, BIT Sindri",
 					Mail: "malaysrivastava547@gmail.com",
 					Link: "https://www.linkedin.com/in/malay-srivastava-2a89b8284 ",
+				},
+				{
+					name: "Nivedita Gupta ",
+					position: "PIE, 2k23, BIT Sindri",
+					Mail: "niveditagupta.2705@gmail.com",
+					Link: "https://www.linkedin.com/in/nivedita-gupta-53960b290 ",
 				},
 			],
 		},
