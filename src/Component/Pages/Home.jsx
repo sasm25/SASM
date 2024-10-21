@@ -53,7 +53,7 @@ export default function Home() {
             <br /> Smart and Sustainable Manufacturing: Industry 4.0 & Beyond
           </h4>
           <h5 className="mt-8 text-lg font-semibold text-gray-300 text-shadow-sm italic">
-            Tentative Date: March 07-09, 2025
+             Date: March 07-09, 2025
           </h5>
           <br />
           <span className="text-xl w-1/2 text-gray-400">
@@ -210,7 +210,7 @@ export default function Home() {
                 className="text-4xl font-serif my-4 text-center font-semibold text-[#98DED9] "
                 data-aos="zoom-in"
               >
-                DEPARTMENT OF PRODUCTION ENGINEERING
+                DEPARTMENT OF PRODUCTION & INDUSTRIAL ENGINEERING
               </h2>
               <div className="w-full mt-10  flex flex-row max-lg:flex-col ">
                 <div className="w-full mt-10 mr-6 flex tracking-tighter flex-col  ">

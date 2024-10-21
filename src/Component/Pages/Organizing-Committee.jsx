@@ -81,7 +81,7 @@ export default function OrganizingCommittee() {
 			],
 		},
 		{
-			title: "Coordinator(s)",
+			title: "Coordinators",
 			members: [
 				{
 					name: "Dr. Sumanta Mukherjee",
@@ -96,7 +96,7 @@ export default function OrganizingCommittee() {
 			],
 		},
 		{
-			title: "Co-Coordinator(s)",
+			title: "Co-Coordinators",
 			members: [
 				{
 					name: "Mr. Kashif Hazan Kazmi",
@@ -112,7 +112,7 @@ export default function OrganizingCommittee() {
 			],
 		},
 		{
-			title: "Faculty Member Committee",
+			title: "Conference Organising Committee",
 			members: [
 				{
 					name: "Prof. Rajesh ",
@@ -138,7 +138,7 @@ export default function OrganizingCommittee() {
 		},
 
 		{
-			title: "National Advisory Committee (Tentative)",
+			title: "National Advisory Committee",
 			members: [
 				{
 					name: "B. S. Sahay",
@@ -172,12 +172,27 @@ export default function OrganizingCommittee() {
 			],
 		},
 		{
-			title: "International Advisory Committee (Tentative)",
+			title: "International Advisory Committee",
 			members: [
 				{
 					name: "Stanislaw Legutko",
 					position:
 						"Professor, Department of Mechanical & Manufacturing Engineering",
+				},
+				{
+					name: "Mr. Firoz Alam",
+					position:
+						"RMIT Professor, Australia ",
+				},
+				{
+					name: "Prof. Grzegorz Krolczyk",
+					position:
+						"Director opole University, Poland",
+				},
+				{
+					name: "Prof. Teresa Zielińska",
+					position:
+						"Proxy rector WUT, Poland ",
 				},
 				{
 					name: "Prof. Ramjee Prasad",
@@ -210,7 +225,7 @@ export default function OrganizingCommittee() {
 			],
 		},
 		{
-			title: "Scientific Advisory Committee (Tentative)",
+			title: "Scientific Advisory Committee",
 			members: [
 				{
 					name: "Prof. K.K Singh",
@@ -227,11 +242,6 @@ export default function OrganizingCommittee() {
 				{
 					name: "Prof. M Gopinath",
 					position: "IIT Hyderabad, India",
-				},
-				{
-					name: "Prof. Ahmad Soury",
-					position:
-						"King Fuad University of Technology and Management, Saudi Arabia",
 				},
 				{
 					name: "Prof. Igor Drstvensek",
