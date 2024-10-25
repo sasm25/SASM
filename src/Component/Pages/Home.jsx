@@ -70,6 +70,7 @@ export default function Home() {
 						alt="Conference image"
 					/>
 				</div> */}
+        
       </div>
       <div className="relative">
         <div className="w-full bg-black h-full py-6 absolute opacity-25"></div>
