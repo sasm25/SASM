@@ -39,7 +39,7 @@ export default function Home() {
             <br /> Smart and Sustainable Manufacturing: Industry 4.0 & Beyond
           </h4>
           <h5 className="mt-8 text-lg font-semibold text-gray-300 text-shadow-sm italic">
-             Date: May 05-09, 2025
+            Date: May 05-09, 2025
           </h5>
           <br />
           <span className="text-xl w-1/2 text-gray-400">
@@ -71,9 +71,29 @@ export default function Home() {
               About the Seminar
             </h2>
             <p className="text-lg text-gray-400 mt-10 leading-relaxed text-justify">
-            The proposed seminar would be a national-scale event going to be organized by Production & Industrial Engineering Department, BIT Sindri, Dhanbad. This Five-day event is being envisioned to fuel discussions and create possible roadmaps for taking our manufacturing sector to the era of Industry 4.0 and beyond. This initiative will serves as a platform to facilitate collaboration between the academic, industrial, and research communities, fostering a synergy that can drive innovation and sustainable growth. By bringing together experts and stakeholders from various sectors, the program will focus on exchanging ideas and sharing best practices to harness the potential of digital technologies in manufacturing. This program intends to bring together leading researchers and practitioners from around the country for five days of expert lectures, presentations, dialogue and interaction. The deliberations in this seminar are expected to provide guidance for the digital transformation of the manufacturing industries in the eastern part of the country.
-This initiative also aligns with the broader vision of the “Make in India” campaign, contributing to the country’s goal of becoming a global manufacturing hub. It will not only boost regional manufacturing capabilities but also foster a deeper, more innovative approach to the integration of technology into traditional industries, strengthening India’s overall competitiveness on the global stage. 
-
+              The proposed seminar would be a national-scale event going to be
+              organized by Production & Industrial Engineering Department, BIT
+              Sindri, Dhanbad. This Five-day event is being envisioned to fuel
+              discussions and create possible roadmaps for taking our
+              manufacturing sector to the era of Industry 4.0 and beyond. This
+              initiative will serves as a platform to facilitate collaboration
+              between the academic, industrial, and research communities,
+              fostering a synergy that can drive innovation and sustainable
+              growth. By bringing together experts and stakeholders from various
+              sectors, the program will focus on exchanging ideas and sharing
+              best practices to harness the potential of digital technologies in
+              manufacturing. This program intends to bring together leading
+              researchers and practitioners from around the country for five
+              days of expert lectures, presentations, dialogue and interaction.
+              The deliberations in this seminar are expected to provide guidance
+              for the digital transformation of the manufacturing industries in
+              the eastern part of the country. This initiative also aligns with
+              the broader vision of the “Make in India” campaign, contributing
+              to the country’s goal of becoming a global manufacturing hub. It
+              will not only boost regional manufacturing capabilities but also
+              foster a deeper, more innovative approach to the integration of
+              technology into traditional industries, strengthening India’s
+              overall competitiveness on the global stage.
               <br />
             </p>
           </div>
@@ -85,7 +105,7 @@ This initiative also aligns with the broader vision of the “Make in India” c
               Theme of the Conference
             </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 mx-6 lg:mx-12">
+            {/* <div className=" grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 grid mt-10 mx-6 lg:mx-12">
               {themes.map((theme, index) => (
                 <div
                   key={index}
@@ -93,7 +113,24 @@ This initiative also aligns with the broader vision of the “Make in India” c
                   data-aos="zoom-in"
                   data-aos-duration={`${index}00`}
                 >
-                  <p className="text-lg text-gray-200 text-center capitalize">{theme}</p>
+                  <p className="text-lg text-gray-200 text-center capitalize">
+                    {theme}
+                  </p>
+                </div>
+              ))}
+            </div> */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 mx-6 lg:mx-12">
+              {themes.map((theme, index) => (
+                <div
+                  key={index}
+                  className={`bg-blue-950 bg-opacity-25 px-2.5 py-2 rounded-lg shadow-lg flex justify-center flex-col items-center
+        ${index === themes.length - 1 ? "sm:col-span-2 lg:col-span-3" : ""}`}
+                  data-aos="zoom-in"
+                  data-aos-duration={`${index}00`}
+                >
+                  <p className="text-lg text-gray-200 text-center capitalize">
+                    {theme}
+                  </p>
                 </div>
               ))}
             </div>

@@ -9,7 +9,7 @@ const CommitteeSection = ({ title, members }) => {
         {members.map((member, index) => (
           <div
             key={index}
-            className="bg-black shadow-lg relative bg-opacity-25 p-4 rounded-md flex items-center shadow-sm shadow-blue-900"
+            className="bg-black shadow-lg relative bg-opacity-25 p-4 rounded-md flex items-center  shadow-blue-900"
           >
             <div className="flex flex-row items-end w-full">
               <div className="flex-1">
