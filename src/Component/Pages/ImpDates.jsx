@@ -56,7 +56,7 @@ export default function ImpDates() {
 						<span className="flex items-center">
 							<i className="fas fa-calendar-check text-blue-600 mr-2"></i>
 							<span className="text-white">
-								20<sup>th</sup> April 20, 2025
+								 April 20, 2025
 							</span>
 						</span>
 					</div>
