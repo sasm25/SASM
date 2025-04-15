@@ -11,7 +11,7 @@ export default function ImpDates() {
 						<span className="flex items-center">
 							<i className="fas fa-calendar-alt text-blue-600 mr-2"></i>
 							<span className="text-white">
-								1<sup>st</sup> November 202X
+								April 15, 2025
 							</span>
 						</span>
 					</div>
@@ -20,7 +20,7 @@ export default function ImpDates() {
 						<span className="flex items-center">
 							<i className="fas fa-calendar-alt text-blue-600 mr-2"></i>
 							<span className="text-red-600 font-semibold">
-								Extended to 31<sup>st</sup> May 202X
+								Extended to April 20, 2025
 							</span>
 						</span>
 					</div>
@@ -29,11 +29,11 @@ export default function ImpDates() {
 						<span className="flex items-center">
 							<i className="fas fa-bell text-blue-600 mr-2"></i>
 							<span className="text-white">
-								5<sup>th</sup> June 202X
+								April 20, 2025
 							</span>
 						</span>
 					</div>
-					<div className="flex justify-between items-center">
+					{/* <div className="flex justify-between items-center">
 						<span className="font-medium">Early Bird Registration Start</span>
 						<span className="flex items-center">
 							<i className="fas fa-calendar-alt text-blue-600 mr-2"></i>
@@ -41,8 +41,8 @@ export default function ImpDates() {
 								30<sup>th</sup> May 202X
 							</span>
 						</span>
-					</div>
-					<div className="flex justify-between items-center">
+					</div> */}
+					{/* <div className="flex justify-between items-center">
 						<span className="font-medium">Camera Ready Paper</span>
 						<span className="flex items-center">
 							<i className="fas fa-check-circle text-blue-600 mr-2"></i>
@@ -50,13 +50,13 @@ export default function ImpDates() {
 								5<sup>th</sup> June 202X
 							</span>
 						</span>
-					</div>
+					</div> */}
 					<div className="flex justify-between items-center">
 						<span className="font-medium">Last Date of Registration</span>
 						<span className="flex items-center">
 							<i className="fas fa-calendar-check text-blue-600 mr-2"></i>
 							<span className="text-white">
-								20<sup>th</sup> June 202X
+								20<sup>th</sup> April 20, 2025
 							</span>
 						</span>
 					</div>
