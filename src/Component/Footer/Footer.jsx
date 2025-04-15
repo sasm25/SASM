@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="flex flex-col ml-3">
           <h4 className="text-2xl max-md:text-xl font-bold">Welcome</h4>
           <p className=" max-md:text-sm  mt-2  text-lg max-md:w-[90%] text-emerald-200">
-            International Conference on <br />
+            National Seminar on <br />
             Smart and Sustainable Manufacturing:<br/> Industry 4.0 and Beyond
           </p>
         </div>
