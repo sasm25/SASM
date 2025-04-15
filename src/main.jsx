@@ -14,6 +14,7 @@ import OrganizingCommittee from "./Component/Pages/Organizing-Committee.jsx";
 import ImpDates from "./Component/Pages/ImpDates.jsx";
 import Registration from "./Component/Pages/Registration.jsx";
 import Contact from "./assets/Contact/Contact.jsx";
+import ProgramSchedule from "./components/timeSchedule.jsx";
 
 // /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 // particlesJS.load("particles-js", "assets/particles.json", function () {
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<App />}>
       <Route path="/" element={<Home />} />
       <Route path="contact" element={<Contact />} />
+      <Route path="Schedule" element={<ProgramSchedule />} />
       <Route path="imp-dates" element={<ImpDates />} />
       <Route path="registration" element={<Registration />} />
       <Route path="org-committee" element={<OrganizingCommittee />} />

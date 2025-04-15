@@ -30,10 +30,10 @@ export default function Home() {
   ];
   return (
     <main className="/* bg-[url('/images/img2..jpg')] bg-cover bg-center bg-no-repeat">
-      <div className="flex justify-center items-center  h-screen">
+      <div className="flex justify-center items-center  h-screen pt-20">
         <div className="text-gray-100 w-[75%] text-center mx-auto leading-loose">
-          <h4 className="xl:text-4xl md:text-5xl text-2xl font-semibold tracking-wide text-gray-200 leading-[50px]">
-            <span className="xl:text-7xl text-4xl metallic-text text-white text-shadow-lg">
+          <h4 className="xl:text-6xl md:text-5xl text-2xl font-semibold tracking-wide text-gray-200 leading-[50px]">
+            <span className="xl:text-5xl text-4xl metallic-text text-white text-shadow-lg">
               {text}
             </span>
             <br /> Smart and Sustainable Manufacturing: Industry 4.0 & Beyond
@@ -102,7 +102,7 @@ export default function Home() {
               className="text-center text-4xl mt-12 font-semibold uppercase font-serif text-[#98DED9]"
               data-aos="zoom-in"
             >
-              Theme of the Conference
+              Theme of the Seminar
             </h2>
 
             {/* <div className=" grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 grid mt-10 mx-6 lg:mx-12">

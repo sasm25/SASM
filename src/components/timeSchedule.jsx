@@ -62,7 +62,7 @@ const scheduleData = [
 
 export default function ProgramSchedule() {
   return (
-    <main className="text-white bg-blue-950 bg-opacity-20 min-h-screen">
+    <main className="text-white mt-28 bg-blue-950 bg-opacity-20 min-h-screen">
       <div className="container mx-auto px-4 pb-16">
         <h1 className="text-4xl font-bold text-center mb-10 text-emerald-300 drop-shadow-md">
           Program Schedule
@@ -82,7 +82,7 @@ export default function ProgramSchedule() {
                   >
                     <div className="flex justify-between items-center">
                       <p className="text-base text-gray-300">{session.time}</p>
-                      <p className="text-lg font-medium text-gray-100">
+                      <p className="md:text-lg text-md font-medium text-gray-100">
                         {session.event}
                       </p>
                     </div>
