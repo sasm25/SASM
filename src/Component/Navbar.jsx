@@ -412,7 +412,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 
 const MOBILE_NAV_ITEMS = [
-  { id: 0, navTitle: "home", to: "/" },
+  { id: 0, navTitle: "Home", to: "/" },
   { id: 1, navTitle: "Committee", to: "/org-committee" },
   { id: 2, navTitle: "Important Dates", to: "/imp-dates" },
   { id: 3, navTitle: "Registration", to: "/registration" },
