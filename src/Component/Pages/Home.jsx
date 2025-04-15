@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const [text, setText] = useState("");
-  const fullText = "International Conference";
+  const fullText = "National Seminar";
 
   useEffect(() => {
     let index = 0;
@@ -21,26 +21,12 @@ export default function Home() {
     "AI: Manufacturing applications",
     "Autonomous production",
     "Analytics and big data",
-    "Blockchain",
-    "Cloud computing",
+    "Robotics",
     "Cyber physical systems",
-    "Cyber security in manufacturing",
-    "Digital twins",
-    "Economics & business models",
-    "Ergonomics and social factors",
-    "Human-machine interaction",
+    "Sustainable Manufacturing",
     "Industrial internet of things",
     "Smart and digital supply chains",
     "Maintenance and lifecycle management",
-    "Manufacturing Technologies",
-    "Product & Process Design",
-    "Production systems and supply chain",
-    "Project and risk management",
-    "Quality management & assurance",
-    "Robotics",
-    "Occupational health & safety",
-    "Smart Operators",
-    "Sustainability-oriented production",
   ];
   return (
     <main className="/* bg-[url('/images/img2..jpg')] bg-cover bg-center bg-no-repeat">
@@ -53,7 +39,7 @@ export default function Home() {
             <br /> Smart and Sustainable Manufacturing: Industry 4.0 & Beyond
           </h4>
           <h5 className="mt-8 text-lg font-semibold text-gray-300 text-shadow-sm italic">
-             Date: March 07-09, 2025
+             Date: May 05-09, 2025
           </h5>
           <br />
           <span className="text-xl w-1/2 text-gray-400">
@@ -82,29 +68,13 @@ export default function Home() {
               className="text-center text-5xl font-serif font-semibold text-[#98DED9]"
               data-aos="zoom-in"
             >
-              About the Conference
+              About the Seminar
             </h2>
             <p className="text-lg text-gray-400 mt-10 leading-relaxed text-justify">
-              Dive into the future of manufacturing at BIT Sindri, Dhanbad,
-              where the Department of Production & Industrial Engineering
-              invites you to an innovative international conference on Industry
-              4.0. Over three dynamic days, engage with top experts, scholars,
-              and industry leaders through interactive sessions, cutting-edge
-              presentations, and collaborative workshops, all aimed at advancing
-              India’s manufacturing sector. Experience a vibrant exchange of
-              ideas and contribute to shaping the digitalization of
-              manufacturing in the eastern region. With proceedings published on
-              Scopus and Springer, your work will gain prestigious visibility.
-              This conference aims to unite prominent researchers and
-              practitioners globally for three days of presentations,
-              discussions, and engagement. The discussions at this conference
-              are anticipated to offer direction for the digitalization of
-              manufacturing sectors in the eastern region of the nation.
+            The proposed seminar would be a national-scale event going to be organized by Production & Industrial Engineering Department, BIT Sindri, Dhanbad. This Five-day event is being envisioned to fuel discussions and create possible roadmaps for taking our manufacturing sector to the era of Industry 4.0 and beyond. This initiative will serves as a platform to facilitate collaboration between the academic, industrial, and research communities, fostering a synergy that can drive innovation and sustainable growth. By bringing together experts and stakeholders from various sectors, the program will focus on exchanging ideas and sharing best practices to harness the potential of digital technologies in manufacturing. This program intends to bring together leading researchers and practitioners from around the country for five days of expert lectures, presentations, dialogue and interaction. The deliberations in this seminar are expected to provide guidance for the digital transformation of the manufacturing industries in the eastern part of the country.
+This initiative also aligns with the broader vision of the “Make in India” campaign, contributing to the country’s goal of becoming a global manufacturing hub. It will not only boost regional manufacturing capabilities but also foster a deeper, more innovative approach to the integration of technology into traditional industries, strengthening India’s overall competitiveness on the global stage. 
+
               <br />
-              <strong className="text-gray-300 text-center">
-                The conference will have its proceedings published with
-                Scopus-indexed journals or as book chapters.
-              </strong>
             </p>
           </div>
           <div data-aos="fade-up">
@@ -137,10 +107,6 @@ export default function Home() {
                 {/* <div className="text-4xl text-[#98DED9] mb-4 text-center">
 									<i className="fas fa-lightbulb"></i>
 								</div> */}
-                <p className="text-lg text-gray-200 text-center">
-                  Innovative education models for smart and sustainable
-                  production systems
-                </p>
               </div>
             </div>
           </div>
