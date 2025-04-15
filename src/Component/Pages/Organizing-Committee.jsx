@@ -314,18 +314,18 @@ export default function OrganizingCommittee() {
           Mail: "yashkd12790@gmail.com",
           Link: "https://www.linkedin.com/in/yash-kedia-589144255/",
         },
-        {
-          name: "Malay Srivastava ",
-          position: "PIE, 2k23, BIT Sindri",
-          Mail: "malaysrivastava547@gmail.com",
-          Link: "https://www.linkedin.com/in/malay-srivastava-2a89b8284 ",
-        },
-        {
-          name: "Nivedita Gupta ",
-          position: "PIE, 2k23, BIT Sindri",
-          Mail: "niveditagupta.2705@gmail.com",
-          Link: "https://www.linkedin.com/in/nivedita-gupta-53960b290 ",
-        },
+        // {
+        //   name: "Malay Srivastava ",
+        //   position: "PIE, 2k23, BIT Sindri",
+        //   Mail: "malaysrivastava547@gmail.com",
+        //   Link: "https://www.linkedin.com/in/malay-srivastava-2a89b8284 ",
+        // },
+        // {
+        //   name: "Nivedita Gupta ",
+        //   position: "PIE, 2k23, BIT Sindri",
+        //   Mail: "niveditagupta.2705@gmail.com",
+        //   Link: "https://www.linkedin.com/in/nivedita-gupta-53960b290 ",
+        // },
         {
           name: "Sachin Kumar Gupta ",
           position: "PIE, 2k22, BIT Sindri",
