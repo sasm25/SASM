@@ -8,20 +8,17 @@ export default function Registration() {
 
 				<div className="mb-6">
 					<p className="text-gray-200">
-						<strong>Targeted Participants:</strong> The program will be
-						advantageous for individuals from academia, research, and industry
-						to discuss new ideas. Attendees will be encouraged to sign up for
-						the conference. A registration form will be provided together with
-						the brochure.
+						<strong>Submission of Extended Abstract:</strong> The extended abstracts are to be submitted in editable MS-Word format to the mail id sasm25@bitsindri.ac.in. The subject line should mention "Extended Abstract: Name of the corresponding Author"
+						<br/>
+						The formatting instructions for abstract submission is provided below.
 					</p>
 					<br />
 					<p className="text-gray-200 mt-2">
-						<strong>Number of expected participants: 100</strong>
+						<strong>Registration Fee: 500/- (for students and research scholars), 1000/- (for faculty members)</strong>
 					</p>
 					<br />
 					<p className="text-gray-200 mt-2">
-						<strong>Number of external speakers:</strong> National 05,
-						International 05
+						<strong>Publication:</strong> A Book of Abstracts based on the expert talks and the research presentations will be published during the seminar.
 					</p>
 					<br />
 				</div>
