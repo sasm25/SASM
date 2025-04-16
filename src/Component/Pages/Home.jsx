@@ -32,8 +32,8 @@ export default function Home() {
     <main className="/* bg-[url('/images/img2..jpg')] bg-cover bg-center bg-no-repeat">
       <div className="flex justify-center items-center  h-screen pt-20">
         <div className="text-gray-100 w-[75%] text-center mx-auto leading-loose">
-          <h4 className="xl:text-6xl md:text-5xl text-2xl font-semibold tracking-wide text-gray-200 leading-[50px]">
-            <span className="xl:text-5xl text-4xl metallic-text text-white text-shadow-lg">
+          <h4 className="xl:text-5xl md:text-5xl text-2xl font-semibold tracking-wide text-gray-200 leading-[50px]">
+            <span className="xl:text-4xl text-4xl metallic-text text-white text-shadow-lg">
               {text}
             </span>
             <br /> Smart and Sustainable Manufacturing: Industry 4.0 & Beyond

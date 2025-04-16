@@ -60,6 +60,42 @@ const scheduleData = [
   },
 ];
 
+// export default function ProgramSchedule() {
+//   return (
+//     <main className="text-white mt-28 bg-blue-950 bg-opacity-20 min-h-screen">
+//       <div className="container mx-auto px-4 pb-16">
+//         <h1 className="text-4xl font-bold text-center mb-10 text-emerald-300 drop-shadow-md">
+//           Program Schedule
+//         </h1>
+
+//         <div className="space-y-10">
+//           {scheduleData.map((daySchedule, index) => (
+//             <div key={index}>
+//               <h2 className="text-2xl font-semibold mb-4 text-emerald-300">
+//                 {daySchedule.day}
+//               </h2>
+//               <div className="space-y-4">
+//                 {daySchedule.sessions.map((session, idx) => (
+//                   <div
+//                     key={idx}
+//                     className="bg-white/5 backdrop-blur-sm border border-white/10 shadow-lg shadow-emerald-500/10 p-5 rounded-xl transition-transform duration-300 hover:-translate-y-1"
+//                   >
+//                     <div className="flex justify-between items-center">
+//                       <p className="text-base text-gray-300">{session.time}</p>
+//                       <p className="md:text-lg text-md font-medium text-gray-100">
+//                         {session.event}
+//                       </p>
+//                     </div>
+//                   </div>
+//                 ))}
+//               </div>
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+//     </main>
+//   );
+// }
 export default function ProgramSchedule() {
   return (
     <main className="text-white mt-28 bg-blue-950 bg-opacity-20 min-h-screen">
@@ -74,18 +110,16 @@ export default function ProgramSchedule() {
               <h2 className="text-2xl font-semibold mb-4 text-emerald-300">
                 {daySchedule.day}
               </h2>
-              <div className="space-y-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {daySchedule.sessions.map((session, idx) => (
                   <div
                     key={idx}
-                    className="bg-white/5 backdrop-blur-sm border border-white/10 shadow-lg shadow-emerald-500/10 p-5 rounded-xl transition-transform duration-300 hover:-translate-y-1"
+                    className="bg-white/5 backdrop-blur-sm border border-white/10 shadow-lg shadow-emerald-500/10 p-4 rounded-lg transition-transform duration-300 hover:-translate-y-1"
                   >
-                    <div className="flex justify-between items-center">
-                      <p className="text-base text-gray-300">{session.time}</p>
-                      <p className="md:text-lg text-md font-medium text-gray-100">
-                        {session.event}
-                      </p>
-                    </div>
+                    <p className="text-sm text-gray-300 mb-1">{session.time}</p>
+                    <p className="text-base font-medium text-gray-100">
+                      {session.event}
+                    </p>
                   </div>
                 ))}
               </div>

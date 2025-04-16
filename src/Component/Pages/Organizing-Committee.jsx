@@ -48,295 +48,226 @@ const CommitteeSection = ({ title, members }) => {
 export default function OrganizingCommittee() {
   const data = [
     {
-      title: "Chief Patron",
+      title: "xyz",
       members: [
         {
-          name: "Prof. D.K Singh",
-          position:
-            "Vice-Chancellor, Jharkhand University of Technology, Ranchi",
-          Mail: "director@bitsindri.ac.in",
-          Link: "https://www.linkedin.com/in/prof-pankaj-rai-2390038",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
+          Link: "xyz",
         },
       ],
     },
     {
-      title: "Patron",
+      title: "xyz",
       members: [
         {
-          name: "Prof. Pankaj Rai",
-          position: "Director, BIT Sindri",
-          Mail: "director@bitsindri.ac.in",
-          Link: "https://www.linkedin.com/in/prof-pankaj-rai-2390038",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
+          Link: "xyz",
         },
       ],
     },
     {
-      title: "Convener",
+      title: "xyz",
       members: [
         {
-          name: "Prof. Prakash Kumar",
-          position: "HOD ,Prod & Ind.Engg, BIT Sindri",
-          Mail: "prakashkr.prod@bitsindri.ac.in",
-          Link: "https://www.linkedin.com/in/dr-prakash-kumar-231b86125",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
+          Link: "xyz",
         },
       ],
     },
     {
-      title: "Coordinators",
+      title: "xyz",
       members: [
         {
-          name: "Dr. Sumanta Mukherjee",
-          position: "Assistant Professor, PIE, 2k22, BIT Sindri",
-          Mail: "sumanta.prod@bitsindri.ac.in",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
         },
         {
-          name: "Dr. Surya Narayan Panda",
-          position: "Assistant Professor, PIE, BIT Sindri",
-          Mail: "snpanda.prod@bitsindri.ac.in",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
         },
       ],
     },
     {
-      title: "Co-Coordinators",
+      title: "xyz",
       members: [
         {
-          name: "Mr. Kashif Hazan Kazmi",
-          position: "Assistant Professor, PIE, BIT Sindri",
-          Mail: "kashif.prod@bitsindri.ac.in",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
         },
         {
-          name: "Mr. Mukesh Chandra",
-          position: "Assistant Professor, PIE, BIT Sindri",
-          Mail: "mukesh.prod@bitsindri.ac.in",
-          Link: "https://www.linkedin.com/in/mukesh-chandra-9772ba8a",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
+          Link: "xyz",
         },
       ],
     },
     {
-      title: "Conference Organising Committee",
+      title: "xyz",
       members: [
         {
-          name: "Prof. Rakesh ",
-          position: "Assistant Professor, PIE, BIT Sindri",
-          Mail: "rakesh.prod@bitsindri.ac.in",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
         },
         {
-          name: "Mr. Abhishek Raj",
-          position: "Assistant Professor, PIE, BIT Sindri",
-          Mail: "abhishekraj.prod@bitsindri.ac.in",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
         },
         {
-          name: "Dr. Manowar Hussain",
-          position: "Assistant Professor, PIE, BIT Sindri",
-          Mail: "manowar.prod@bitsindri.ac.in",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
         },
         {
-          name: "Mr. A.R Ansari",
-          position: "Assistant Professor, PIE, BIT Sindri",
-          Mail: "aransari.prod@bitsindri.ac.in",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
         },
       ],
     },
-
     {
-      title: "National Advisory Committee",
+      title: "xyz",
       members: [
         {
-          name: "B. S. Sahay",
-          position: "Director, IIM Jammu",
+          name: "xyz",
+          position: "xyz",
         },
         {
-          name: "Prof. Sanjay Kumar",
-          position:
-            "Vice-Chancellor, Symbiosis University of Applied Science, Indore",
+          name: "xyz",
+          position: "xyz",
         },
         {
-          name: "Prof. Sanjay Kumar",
-          position: "Vice Chancellor of Amity University, Kolkata",
+          name: "xyz",
+          position: "xyz",
         },
         {
-          name: "Sanjeew Singh",
-          position: "General Manager, SAIL, Durgapur",
+          name: "xyz",
+          position: "xyz",
         },
         {
-          name: "Ms. Kumud Sharma",
-          position: "CEO, SuperSeva Services Pvt. Ltd",
+          name: "xyz",
+          position: "xyz",
         },
         {
-          name: "Dr. Alok Kumar",
-          position: "Assistant Professor, XLRI, JSR",
+          name: "xyz",
+          position: "xyz",
         },
         {
-          name: "Anmol Srivastava",
-          position: "Area Manager HRM, Tata Steel",
+          name: "xyz",
+          position: "xyz",
         },
         {
-          name: "Ms. Neelima Sharma",
-          position: "Dy. Head, Digital, Cairn Oil and Gas India,New Delhi",
+          name: "xyz",
+          position: "xyz",
         },
         {
-          name: "Prof. Vinay Sharma",
-          position: "Professor, PE, BIT Mesra",
+          name: "xyz",
+          position: "xyz",
         },
         {
-          name: "Others experts from IITs, NITs, CSIR Labs, and Industries",
-          position: "",
+          name: "xyz",
+          position: "xyz",
         },
       ],
     },
-    // {
-    //   title: "International Advisory Committee",
-    //   members: [
-    //     {
-    //       name: "Stanislaw Legutko",
-    //       position:
-    //         "Professor, Department of Mechanical & Manufacturing Engineering",
-    //     },
-    //     {
-    //       name: "Mr. Firoz Alam",
-    //       position: "RMIT Professor, Australia ",
-    //     },
-    //     {
-    //       name: "Prof. Grzegorz Krolczyk",
-    //       position: "Director opole University, Poland",
-    //     },
-    //     {
-    //       name: "Prof. Teresa Zielińska",
-    //       position: "Proxy rector WUT, Poland ",
-    //     },
-    //     {
-    //       name: "Prof. Ramjee Prasad",
-    //       position: "Aalborg University, Denmark",
-    //     },
-    //     {
-    //       name: "Prof. Subodha Kumar",
-    //       position: "Texas A&M University, USA",
-    //     },
-    //     {
-    //       name: "Prof. Jyoti Sinha",
-    //       position: "The University of Manchester, UK",
-    //     },
-    //     {
-    //       name: "Shailendra K Suman",
-    //       position: "CEO, TVL International, USA",
-    //     },
-    //     {
-    //       name: "Dr. Uma Shanker Jha",
-    //       position: "Qualcomm, USA",
-    //     },
-    //     {
-    //       name: "Dr. Raman Daga",
-    //       position: "President, Metadyne, USA",
-    //     },
-    //     {
-    //       name: "Dr. Sanjay Kumar Shukla",
-    //       position: "Edith Cowan University, UK",
-    //     },
-    //   ],
-    // },
     {
-      title: "Scientific Advisory Committee",
+      title: "xyz",
       members: [
         {
-          name: "Prof. K.K Singh",
-          position: "IIT ISM Dhanbad, India",
+          name: "xyz",
+          position: "xyz",
         },
         {
-          name: "Prof. B Oraon",
-          position: "Jadavpur University, India",
+          name: "xyz",
+          position: "xyz",
         },
         {
-          name: "Prof. S Chatterjee",
-          position: "IIT Indore, India",
+          name: "xyz",
+          position: "xyz",
         },
         {
-          name: "Prof. M Gopinath",
-          position: "IIT Hyderabad, India",
+          name: "xyz",
+          position: "xyz",
         },
         {
-          name: "Prof. Igor Drstvensek",
-          position: "University of Maribor, Slovenia",
+          name: "xyz",
+          position: "xyz",
         },
         {
-          name: "Prof. M.T Lee",
-          position: "Industrial Technology Research Institute, Taiwan",
+          name: "xyz",
+          position: "xyz",
         },
         {
-          name: "Somnath Chattopadhyaya",
-          position: "IIT ISM, Department of Mechanical Engineering",
+          name: "xyz",
+          position: "xyz",
         },
       ],
     },
-
     {
-      title: "Student Coordinator Committee",
+      title: "xyz",
       members: [
         {
-          name: "Piyush Ranjan",
-          position: "PIE, 2k21, BIT Sindri",
-          Mail: "piyushranjan5555@gmail.com",
-          Link: "https://www.linkedin.com/in/sachin-kumar-gupta-1309",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
+          Link: "xyz",
         },
         {
-          name: "Rishita Dutta ",
-          position: "PIE, 2k21, BIT Sindri",
-          Mail: "rishitadutta26@gmail.com	",
-          Link: "https://www.linkedin.com/in/rishita-dutta-24a91824a",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
+          Link: "xyz",
         },
         {
-          name: "Mrinjal Kumar Gupta  ",
-          position: "PIE, 2k21, BIT Sindri",
-          Mail: "mrinjalbit@gmail.com	",
-          Link: "https://www.linkedin.com/in/mrinjalgupta ",
-        },
-
-        {
-          name: "Syed Adnan Ahmad ",
-          position: "PIE, 2k22, BIT Sindri",
-          Mail: "ahmadadnan4312@gmail.com",
-          Link: "https://www.linkedin.com/in/syedadnan03",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
+          Link: "xyz",
         },
         {
-          name: "Harsh Bhargav ",
-          position: "PIE, 2k22, BIT Sindri",
-          Mail: "harshbhargav440@gmail.com",
-          Link: "https://www.linkedin.com/in/harshbhargav",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
+          Link: "xyz",
         },
         {
-          name: "Amit Kumar Mishra ",
-          position: "PIE, 2k22, BIT Sindri",
-          Mail: "amit744mishra@gmail.com",
-          Link: "https://www.linkedin.com/in/amit-mishra-446367259",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
+          Link: "xyz",
         },
         {
-          name: "Yash Kedia",
-          position: "PIE, 2k22, BIT Sindri",
-          Mail: "yashkd12790@gmail.com",
-          Link: "https://www.linkedin.com/in/yash-kedia-589144255/",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
+          Link: "xyz",
         },
-        // {
-        //   name: "Malay Srivastava ",
-        //   position: "PIE, 2k23, BIT Sindri",
-        //   Mail: "malaysrivastava547@gmail.com",
-        //   Link: "https://www.linkedin.com/in/malay-srivastava-2a89b8284 ",
-        // },
-        // {
-        //   name: "Nivedita Gupta ",
-        //   position: "PIE, 2k23, BIT Sindri",
-        //   Mail: "niveditagupta.2705@gmail.com",
-        //   Link: "https://www.linkedin.com/in/nivedita-gupta-53960b290 ",
-        // },
         {
-          name: "Sachin Kumar Gupta ",
-          position: "PIE, 2k22, BIT Sindri",
-          Mail: "sachinkg1309@gmail.com",
-          Link: "https://www.linkedin.com/in/sachin-kumar-gupta-1309",
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
+          Link: "xyz",
+        },
+        {
+          name: "xyz",
+          position: "xyz",
+          Mail: "xyz",
+          Link: "xyz",
         },
       ],
     },
-    // Add more sections here as needed
   ];
-
   return (
     <main className="text-white">
       <div className="containe w-[85%] mx-auto py-12 pt-32 min-h-[100vh]">
@@ -354,3 +285,294 @@ export default function OrganizingCommittee() {
     </main>
   );
 }
+
+// const data = [
+//   {
+//     title: "Chief Patron",
+//     members: [
+//       {
+//         name: "Prof. D.K Singh",
+//         position:
+//           "Vice-Chancellor, Jharkhand University of Technology, Ranchi",
+//         Mail: "director@bitsindri.ac.in",
+//         Link: "https://www.linkedin.com/in/prof-pankaj-rai-2390038",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Patron",
+//     members: [
+//       {
+//         name: "Prof. Pankaj Rai",
+//         position: "Director, BIT Sindri",
+//         Mail: "director@bitsindri.ac.in",
+//         Link: "https://www.linkedin.com/in/prof-pankaj-rai-2390038",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Convener",
+//     members: [
+//       {
+//         name: "Prof. Prakash Kumar",
+//         position: "HOD ,Prod & Ind.Engg, BIT Sindri",
+//         Mail: "prakashkr.prod@bitsindri.ac.in",
+//         Link: "https://www.linkedin.com/in/dr-prakash-kumar-231b86125",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Coordinators",
+//     members: [
+//       {
+//         name: "Dr. Sumanta Mukherjee",
+//         position: "Assistant Professor, PIE, 2k22, BIT Sindri",
+//         Mail: "sumanta.prod@bitsindri.ac.in",
+//       },
+//       {
+//         name: "Dr. Surya Narayan Panda",
+//         position: "Assistant Professor, PIE, BIT Sindri",
+//         Mail: "snpanda.prod@bitsindri.ac.in",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Co-Coordinators",
+//     members: [
+//       {
+//         name: "Mr. Kashif Hazan Kazmi",
+//         position: "Assistant Professor, PIE, BIT Sindri",
+//         Mail: "kashif.prod@bitsindri.ac.in",
+//       },
+//       {
+//         name: "Mr. Mukesh Chandra",
+//         position: "Assistant Professor, PIE, BIT Sindri",
+//         Mail: "mukesh.prod@bitsindri.ac.in",
+//         Link: "https://www.linkedin.com/in/mukesh-chandra-9772ba8a",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Conference Organising Committee",
+//     members: [
+//       {
+//         name: "Prof. Rakesh ",
+//         position: "Assistant Professor, PIE, BIT Sindri",
+//         Mail: "rakesh.prod@bitsindri.ac.in",
+//       },
+//       {
+//         name: "Mr. Abhishek Raj",
+//         position: "Assistant Professor, PIE, BIT Sindri",
+//         Mail: "abhishekraj.prod@bitsindri.ac.in",
+//       },
+//       {
+//         name: "Dr. Manowar Hussain",
+//         position: "Assistant Professor, PIE, BIT Sindri",
+//         Mail: "manowar.prod@bitsindri.ac.in",
+//       },
+//       {
+//         name: "Mr. A.R Ansari",
+//         position: "Assistant Professor, PIE, BIT Sindri",
+//         Mail: "aransari.prod@bitsindri.ac.in",
+//       },
+//     ],
+//   },
+
+//   {
+//     title: "National Advisory Committee",
+//     members: [
+//       {
+//         name: "B. S. Sahay",
+//         position: "Director, IIM Jammu",
+//       },
+//       {
+//         name: "Prof. Sanjay Kumar",
+//         position:
+//           "Vice-Chancellor, Symbiosis University of Applied Science, Indore",
+//       },
+//       {
+//         name: "Prof. Sanjay Kumar",
+//         position: "Vice Chancellor of Amity University, Kolkata",
+//       },
+//       {
+//         name: "Sanjeew Singh",
+//         position: "General Manager, SAIL, Durgapur",
+//       },
+//       {
+//         name: "Ms. Kumud Sharma",
+//         position: "CEO, SuperSeva Services Pvt. Ltd",
+//       },
+//       {
+//         name: "Dr. Alok Kumar",
+//         position: "Assistant Professor, XLRI, JSR",
+//       },
+//       {
+//         name: "Anmol Srivastava",
+//         position: "Area Manager HRM, Tata Steel",
+//       },
+//       {
+//         name: "Ms. Neelima Sharma",
+//         position: "Dy. Head, Digital, Cairn Oil and Gas India,New Delhi",
+//       },
+//       {
+//         name: "Prof. Vinay Sharma",
+//         position: "Professor, PE, BIT Mesra",
+//       },
+//       {
+//         name: "Others experts from IITs, NITs, CSIR Labs, and Industries",
+//         position: "",
+//       },
+//     ],
+//   },
+//   // {
+//   //   title: "International Advisory Committee",
+//   //   members: [
+//   //     {
+//   //       name: "Stanislaw Legutko",
+//   //       position:
+//   //         "Professor, Department of Mechanical & Manufacturing Engineering",
+//   //     },
+//   //     {
+//   //       name: "Mr. Firoz Alam",
+//   //       position: "RMIT Professor, Australia ",
+//   //     },
+//   //     {
+//   //       name: "Prof. Grzegorz Krolczyk",
+//   //       position: "Director opole University, Poland",
+//   //     },
+//   //     {
+//   //       name: "Prof. Teresa Zielińska",
+//   //       position: "Proxy rector WUT, Poland ",
+//   //     },
+//   //     {
+//   //       name: "Prof. Ramjee Prasad",
+//   //       position: "Aalborg University, Denmark",
+//   //     },
+//   //     {
+//   //       name: "Prof. Subodha Kumar",
+//   //       position: "Texas A&M University, USA",
+//   //     },
+//   //     {
+//   //       name: "Prof. Jyoti Sinha",
+//   //       position: "The University of Manchester, UK",
+//   //     },
+//   //     {
+//   //       name: "Shailendra K Suman",
+//   //       position: "CEO, TVL International, USA",
+//   //     },
+//   //     {
+//   //       name: "Dr. Uma Shanker Jha",
+//   //       position: "Qualcomm, USA",
+//   //     },
+//   //     {
+//   //       name: "Dr. Raman Daga",
+//   //       position: "President, Metadyne, USA",
+//   //     },
+//   //     {
+//   //       name: "Dr. Sanjay Kumar Shukla",
+//   //       position: "Edith Cowan University, UK",
+//   //     },
+//   //   ],
+//   // },
+//   {
+//     title: "Scientific Advisory Committee",
+//     members: [
+//       {
+//         name: "Prof. K.K Singh",
+//         position: "IIT ISM Dhanbad, India",
+//       },
+//       {
+//         name: "Prof. B Oraon",
+//         position: "Jadavpur University, India",
+//       },
+//       {
+//         name: "Prof. S Chatterjee",
+//         position: "IIT Indore, India",
+//       },
+//       {
+//         name: "Prof. M Gopinath",
+//         position: "IIT Hyderabad, India",
+//       },
+//       {
+//         name: "Prof. Igor Drstvensek",
+//         position: "University of Maribor, Slovenia",
+//       },
+//       {
+//         name: "Prof. M.T Lee",
+//         position: "Industrial Technology Research Institute, Taiwan",
+//       },
+//       {
+//         name: "Somnath Chattopadhyaya",
+//         position: "IIT ISM, Department of Mechanical Engineering",
+//       },
+//     ],
+//   },
+
+//   {
+//     title: "Student Coordinator Committee",
+//     members: [
+//       {
+//         name: "Piyush Ranjan",
+//         position: "PIE, 2k21, BIT Sindri",
+//         Mail: "piyushranjan5555@gmail.com",
+//         Link: "https://www.linkedin.com/in/sachin-kumar-gupta-1309",
+//       },
+//       {
+//         name: "Rishita Dutta ",
+//         position: "PIE, 2k21, BIT Sindri",
+//         Mail: "rishitadutta26@gmail.com	",
+//         Link: "https://www.linkedin.com/in/rishita-dutta-24a91824a",
+//       },
+//       {
+//         name: "Mrinjal Kumar Gupta  ",
+//         position: "PIE, 2k21, BIT Sindri",
+//         Mail: "mrinjalbit@gmail.com	",
+//         Link: "https://www.linkedin.com/in/mrinjalgupta ",
+//       },
+
+//       {
+//         name: "Syed Adnan Ahmad ",
+//         position: "PIE, 2k22, BIT Sindri",
+//         Mail: "ahmadadnan4312@gmail.com",
+//         Link: "https://www.linkedin.com/in/syedadnan03",
+//       },
+//       {
+//         name: "Harsh Bhargav ",
+//         position: "PIE, 2k22, BIT Sindri",
+//         Mail: "harshbhargav440@gmail.com",
+//         Link: "https://www.linkedin.com/in/harshbhargav",
+//       },
+//       {
+//         name: "Amit Kumar Mishra ",
+//         position: "PIE, 2k22, BIT Sindri",
+//         Mail: "amit744mishra@gmail.com",
+//         Link: "https://www.linkedin.com/in/amit-mishra-446367259",
+//       },
+//       {
+//         name: "Yash Kedia",
+//         position: "PIE, 2k22, BIT Sindri",
+//         Mail: "yashkd12790@gmail.com",
+//         Link: "https://www.linkedin.com/in/yash-kedia-589144255/",
+//       },
+//       // {
+//       //   name: "Malay Srivastava ",
+//       //   position: "PIE, 2k23, BIT Sindri",
+//       //   Mail: "malaysrivastava547@gmail.com",
+//       //   Link: "https://www.linkedin.com/in/malay-srivastava-2a89b8284 ",
+//       // },
+//       // {
+//       //   name: "Nivedita Gupta ",
+//       //   position: "PIE, 2k23, BIT Sindri",
+//       //   Mail: "niveditagupta.2705@gmail.com",
+//       //   Link: "https://www.linkedin.com/in/nivedita-gupta-53960b290 ",
+//       // },
+//       {
+//         name: "Sachin Kumar Gupta ",
+//         position: "PIE, 2k22, BIT Sindri",
+//         Mail: "sachinkg1309@gmail.com",
+//         Link: "https://www.linkedin.com/in/sachin-kumar-gupta-1309",
+//       },
+//     ],
+//   },
+//   // Add more sections here as needed
+// ];

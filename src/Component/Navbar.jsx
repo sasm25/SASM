@@ -4,10 +4,9 @@ import { useState } from "react";
 
 const MOBILE_NAV_ITEMS = [
   { id: 0, navTitle: "Home", to: "/" },
-  { id: 1, navTitle: "Committee", to: "/org-committee" },
-  { id: 2, navTitle: "Important Dates", to: "/imp-dates" },
-  { id: 4, navTitle: "Schedule", to: "/Schedule" },
-  { id: 3, navTitle: "Registration", to: "/registration" },
+  { id: 1, navTitle: "Schedule", to: "/Schedule" },
+  { id: 2, navTitle: "Registration", to: "/registration" },
+  { id: 3, navTitle: "Committee", to: "/org-committee" },
   { id: 4, navTitle: "Contact", to: "/contact" },
 ];
 
