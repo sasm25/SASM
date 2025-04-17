@@ -4,6 +4,78 @@ export default function Registration() {
   return (
     <main className="">
       <ImpDates />
+      {/* Conference details  */}
+      <div className="bg-black bg-opacity-15 p-6 rounded-lg shadow-lg w-[90%] md:w-[65%] mx-auto mb-10">
+        <h2 className="text-3xl font-bold mb-4 text-center text-emerald-300">
+          Important Links
+        </h2>
+        <div className="overflow-x-auto">
+          <table className="w-full table-auto text-white border-collapse mb-6">
+            <thead>
+              <tr>
+                <th className="border border-gray-100 px-4 py-2 text-left">
+                  Title
+                </th>
+                <th className="border border-gray-100 px-4 py-2 text-left">
+                  Link
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-gray-100 px-4 py-2">
+                  Registration Link
+                </td>
+                <td className="border border-gray-100 px-4 py-2">
+                  <a
+                    href="https://forms.gle/HrQExxzhzzpmqSRSA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-emerald-300 underline"
+                  >
+                    https://forms.gle/HrQExxzhzzpmqSRSA
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-100 px-4 py-2">
+                  Abstract Submission Guide
+                </td>
+                <td className="border border-gray-100 px-4 py-2">
+                  <a
+                    href="https://shorturl.at/Qe6KB"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-emerald-300 underline"
+                  >
+                    https://shorturl.at/Qe6KB
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-100 px-4 py-2">
+                  Abstract Submission Link
+                </td>
+                <td className="border border-gray-100 px-4 py-2">
+                  <a
+                    href="https://forms.gle/Ssq9ZTHnGJALCNsGS"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-emerald-300 underline"
+                  >
+                    https://forms.gle/Ssq9ZTHnGJALCNsGS
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p className="text-sm text-gray-300">
+          *Please use these links responsibly and double-check your inputs
+          before submission.
+        </p>
+      </div>
       <div className="bg-black bg-opacity-15 p-6 min-h-[calc(100vh)] rounded-lg shadow-lg w-[90%] md:w-[65%] mx-auto text-gray-200">
         <h2 className="text-3xl font-bold mb-4 text-center text-emerald-300">
           Conference Registration Details
@@ -89,46 +161,74 @@ export default function Registration() {
             </li>
           </ul>
         </div>
-
-        {/* Bank Account Details Table */}
       </div>
-      <div className="bg-black bg-opacity-15 p-6 rounded-lg shadow-lg w-[90%] md:w-[65%] mx-auto m-10">
-        <h2 className="text-3xl font-bold mb-4 text-center text-emerald-300">
+      {/* Bank Account Details Table */}
+      <div className="bg-black bg-opacity-15 p-6 rounded-lg shadow-lg w-[90%] md:w-[65%] mx-auto my-10">
+        <h2 className="text-2xl md:text-3xl font-bold mb-4 text-center text-emerald-300">
           Bank Account Details for Payment
         </h2>
-        <table className="w-full table-auto text-white border-collapse mb-6">
-          <thead>
-            <tr>
-              <th className="border border-gray-100 px-4 py-2 text-left">
-                A/C Holder Name
-              </th>
-              <th className="border border-gray-100 px-4 py-2 text-left">
-                A/C Number
-              </th>
-              <th className="border border-gray-100 px-4 py-2 text-left">
-                Branch
-              </th>
-              <th className="border border-gray-100 px-4 py-2 text-left">
-                IFSC Code
-              </th>
-              <th className="border border-gray-100 px-4 py-2 text-left">
-                MICR Code
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className="border border-gray-100 px-4 py-2">
-                Director, BIT SINDRI, Dhanbad
-              </td>
-              <td className="border border-gray-100 px-4 py-2">10635508859</td>
-              <td className="border border-gray-100 px-4 py-2">BIT Dhanbad</td>
-              <td className="border border-gray-100 px-4 py-2">SBIN0011812</td>
-              <td className="border border-gray-100 px-4 py-2">826002516</td>
-            </tr>
-          </tbody>
-        </table>
-        <p className="text-sm text-gray-300 mb-6">
+
+        <div className="overflow-x-auto">
+          <table className="min-w-full text-white border-collapse mb-6">
+            <thead>
+              <tr>
+                <th className="border border-gray-100 px-4 py-2 text-left whitespace-nowrap">
+                  A/C Holder Name
+                </th>
+                <th className="border border-gray-100 px-4 py-2 text-left whitespace-nowrap">
+                  A/C Number
+                </th>
+                <th className="border border-gray-100 px-4 py-2 text-left whitespace-nowrap">
+                  Branch
+                </th>
+                <th className="border border-gray-100 px-4 py-2 text-left whitespace-nowrap">
+                  IFSC Code
+                </th>
+                <th className="border border-gray-100 px-4 py-2 text-left whitespace-nowrap">
+                  MICR Code
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-gray-100 px-4 py-2">
+                  Director, BIT SINDRI, Dhanbad
+                </td>
+                <td className="border border-gray-100 px-4 py-2">
+                  10635508859
+                </td>
+                <td className="border border-gray-100 px-4 py-2">
+                  BIT Dhanbad
+                </td>
+                <td className="border border-gray-100 px-4 py-2">
+                  SBIN0011812
+                </td>
+                <td className="border border-gray-100 px-4 py-2">826002516</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="bg-emerald-100 bg-opacity-10 p-6 rounded-md mb-6 text-white">
+          <div className="text-center mb-4">
+            <p className="text-sm md:text-base font-semibold mb-2">
+              Alternatively, you can also pay via UPI:
+            </p>
+            <p className="text-lg md:text-xl font-mono text-emerald-300 break-all">
+              bitsindri897456@sbi
+            </p>
+          </div>
+
+          <div className="flex justify-center mb-4">
+            <img
+              src="/images/qrfinal.png" // Replace with actual QR image path
+              alt="UPI QR Code"
+              className="w-32 h-32 object-contain rounded-md shadow-md"
+            />
+          </div>
+        </div>
+
+        <p className="text-sm text-gray-300 text-center md:text-left">
           *Please ensure you mention your name and paper title in the payment
           remark/details during the transaction.
         </p>
