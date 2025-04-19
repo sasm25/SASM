@@ -159,7 +159,7 @@ const data = [
     title: "National Advisory Committee",
     members: [
       {
-        name: "B. S. Sahay",
+        name: "Dr. B. S. Sahay",
         position: "Director, IIM Jammu",
       },
       {
