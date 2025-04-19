@@ -172,7 +172,7 @@ const data = [
         position: "Vice Chancellor of Amity University, Kolkata",
       },
       {
-        name: "Sanjeew Singh",
+        name: "Mr. Sanjeew Singh",
         position: "General Manager, SAIL, Durgapur",
       },
       {
@@ -184,7 +184,7 @@ const data = [
         position: "Assistant Professor, XLRI, JSR",
       },
       {
-        name: "Anmol Srivastava",
+        name: "Mr. Anmol Srivastava",
         position: "Area Manager HRM, Tata Steel",
       },
       {
@@ -234,7 +234,7 @@ const data = [
   //       position: "The University of Manchester, UK",
   //     },
   //     {
-  //       name: "Shailendra K Suman",
+  //       name: "Mr. Shailendra K Suman",
   //       position: "CEO, TVL International, USA",
   //     },
   //     {
