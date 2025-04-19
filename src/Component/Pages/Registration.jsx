@@ -28,12 +28,12 @@ export default function Registration() {
                 </td>
                 <td className="border border-gray-100 px-4 py-2">
                   <a
-                    href="https://forms.gle/HrQExxzhzzpmqSRSA"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSd8cATIc6Pn7-vITIaWoe3LBbOYFTGU4qZD8d9iLp1IuZ_lFg/viewform?usp=send_form"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-emerald-300 underline"
                   >
-                    https://forms.gle/HrQExxzhzzpmqSRSA
+                    https://docs.google.com/forms/d/e/1FAIpQLSd8cATIc6Pn7-vITIaWoe3LBbOYFTGU4qZD8d9iLp1IuZ_lFg/viewform?usp=send_form
                   </a>
                 </td>
               </tr>
@@ -43,12 +43,11 @@ export default function Registration() {
                 </td>
                 <td className="border border-gray-100 px-4 py-2">
                   <a
-                    href="https://shorturl.at/Qe6KB"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="/Pdf/Abstract_Instructions.pdf"
+                    download="Abstract_Submission_Guide.pdf"
                     className="text-emerald-300 underline"
                   >
-                    https://shorturl.at/Qe6KB
+                    Download Abstract Submission Guide
                   </a>
                 </td>
               </tr>
@@ -58,12 +57,12 @@ export default function Registration() {
                 </td>
                 <td className="border border-gray-100 px-4 py-2">
                   <a
-                    href="https://forms.gle/Ssq9ZTHnGJALCNsGS"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSedCwnE8JupnznP_mq9-jQ-oPb28G8_e4NxYHcEIXdZ3wfQhg/viewform"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-emerald-300 underline"
                   >
-                    https://forms.gle/Ssq9ZTHnGJALCNsGS
+                    https://docs.google.com/forms/d/e/1FAIpQLSedCwnE8JupnznP_mq9-jQ-oPb28G8_e4NxYHcEIXdZ3wfQhg/viewform
                   </a>
                 </td>
               </tr>
