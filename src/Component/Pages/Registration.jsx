@@ -38,6 +38,18 @@ export default function Registration() {
                 </td>
               </tr>
               <tr>
+                <td className="border border-gray-100 px-4 py-2">Brochure</td>
+                <td className="border border-gray-100 px-4 py-2">
+                  <a
+                    href="/Pdf/Brochure_Seminar_PIE.pdf"
+                    download="Brochure_Seminar_PIE.pdf"
+                    className="text-emerald-300 underline"
+                  >
+                    Download Brochure
+                  </a>
+                </td>
+              </tr>
+              <tr>
                 <td className="border border-gray-100 px-4 py-2">
                   Abstract Submission Guide
                 </td>

@@ -114,8 +114,13 @@ const data = [
     ],
   },
   {
-    title: "Co-Coordinators",
+    title: "Joint Secretary",
     members: [
+      {
+        name: "Prof. Rakesh ",
+        position: "Assistant Professor, PIE, BIT Sindri",
+        Mail: "rakesh.prod@bitsindri.ac.in",
+      },
       {
         name: "Mr. Kashif Hazan Kazmi",
         position: "Assistant Professor, PIE, BIT Sindri",
@@ -132,11 +137,6 @@ const data = [
   {
     title: "Conference Organising Committee",
     members: [
-      {
-        name: "Prof. Rakesh ",
-        position: "Assistant Professor, PIE, BIT Sindri",
-        Mail: "rakesh.prod@bitsindri.ac.in",
-      },
       {
         name: "Mr. Abhishek Raj",
         position: "Assistant Professor, PIE, BIT Sindri",
