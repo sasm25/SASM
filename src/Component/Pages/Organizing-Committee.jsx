@@ -103,7 +103,7 @@ const data = [
     members: [
       {
         name: "Dr. Sumanta Mukherjee",
-        position: "Assistant Professor, PIE, 2k22, BIT Sindri",
+        position: "Assistant Professor, PIE, BIT Sindri",
         Mail: "sumanta.prod@bitsindri.ac.in",
       },
       {
@@ -117,6 +117,12 @@ const data = [
     title: "Joint Secretary",
     members: [
       {
+        name: "Mr. Mukesh Chandra",
+        position: "Assistant Professor, PIE, BIT Sindri",
+        Mail: "mukesh.prod@bitsindri.ac.in",
+        Link: "https://www.linkedin.com/in/mukesh-chandra-9772ba8a",
+      },
+      {
         name: "Prof. Rakesh ",
         position: "Assistant Professor, PIE, BIT Sindri",
         Mail: "rakesh.prod@bitsindri.ac.in",
@@ -125,12 +131,6 @@ const data = [
         name: "Mr. Kashif Hazan Kazmi",
         position: "Assistant Professor, PIE, BIT Sindri",
         Mail: "kashif.prod@bitsindri.ac.in",
-      },
-      {
-        name: "Mr. Mukesh Chandra",
-        position: "Assistant Professor, PIE, BIT Sindri",
-        Mail: "mukesh.prod@bitsindri.ac.in",
-        Link: "https://www.linkedin.com/in/mukesh-chandra-9772ba8a",
       },
     ],
   },
