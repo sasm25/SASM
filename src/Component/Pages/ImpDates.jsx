@@ -23,7 +23,7 @@ export default function ImpDates() {
               <span className="flex items-center">
                 <i className="fas fa-calendar-alt text-blue-600 mr-2"></i>
                 <span className="text-red-600 font-semibold">
-                  Extended to April 22, 2025
+                  Extended to April 27, 2025
                 </span>
               </span>
             </div>
