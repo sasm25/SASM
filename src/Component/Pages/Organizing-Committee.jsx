@@ -117,18 +117,18 @@ const data = [
     title: "Joint Secretary",
     members: [
       {
-        name: "Mr. Mukesh Chandra",
+        name: "Prof. Rakesh ",
+        position: "Professor, PIE, BIT Sindri",
+        Mail: "rakesh.prod@bitsindri.ac.in",
+      },
+      {
+        name: "Dr. Mukesh Chandra",
         position: "Assistant Professor, PIE, BIT Sindri",
         Mail: "mukesh.prod@bitsindri.ac.in",
         Link: "https://www.linkedin.com/in/mukesh-chandra-9772ba8a",
       },
       {
-        name: "Prof. Rakesh ",
-        position: "Assistant Professor, PIE, BIT Sindri",
-        Mail: "rakesh.prod@bitsindri.ac.in",
-      },
-      {
-        name: "Mr. Kashif Hazan Kazmi",
+        name: "Dr. Kashif Hazan Kazmi",
         position: "Assistant Professor, PIE, BIT Sindri",
         Mail: "kashif.prod@bitsindri.ac.in",
       },
@@ -138,9 +138,9 @@ const data = [
     title: "Conference Organising Committee",
     members: [
       {
-        name: "Mr. Abhishek Raj",
+        name: "Mr. A.R Ansari",
         position: "Assistant Professor, PIE, BIT Sindri",
-        Mail: "abhishekraj.prod@bitsindri.ac.in",
+        Mail: "aransari.prod@bitsindri.ac.in",
       },
       {
         name: "Dr. Manowar Hussain",
@@ -148,9 +148,9 @@ const data = [
         Mail: "manowar.prod@bitsindri.ac.in",
       },
       {
-        name: "Mr. A.R Ansari",
+        name: "Mr. Abhishek Raj",
         position: "Assistant Professor, PIE, BIT Sindri",
-        Mail: "aransari.prod@bitsindri.ac.in",
+        Mail: "abhishekraj.prod@bitsindri.ac.in",
       },
     ],
   },
